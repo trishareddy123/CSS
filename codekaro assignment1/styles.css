@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Section 1: Business Development Card */
+  .card {
+    background-color: #00d084;
+    color: #000;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .card h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Section 2: Profiles Section */
+  .profiles {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .profiles h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .profiles p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .profile-images img {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+  }
+  
+  .see-profiles {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  /* Section 3: Google Photos Feature */
+  .google-photos {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .google-photos h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .google-photos p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .google-photos button {
+    background-color: #00d084;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Section 4: Login Form */
+  .login-form {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-form h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .login-form p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .links a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
